@@ -1,0 +1,36 @@
+.containers{
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* border: 2px solid; */
+    width: 60%;
+    margin: auto;
+    padding: 1rem 2rem;
+    height: 5rem;
+
+}
+
+img{
+    height: 140px !important;
+    width:68%;
+    border-radius: 30px;
+    margin-top: .6rem !important;
+    margin: auto;
+
+}
+
+.addCategories{
+    align-self: flex-end;
+    width: 10%;
+    cursor: pointer;
+}
+

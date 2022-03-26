@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid;
+    width: 60%;
+    height: 4rem;
+    margin: 1.5rem auto;
+    padding: 1rem 2rem;
+    background-color: gray;
+    border-radius: 6px;
+
+}
+
+.itemRight{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 30%;
+    height: 5rem;
+    /* border: 1px solid; */
+
+}
+
+.itemRight > button{
+    padding: .5rem 1rem;
+    border: none;
+    font-weight: 600;
+    border-radius: 3px;
+    width: 5rem;
+    height: 2rem;
+    cursor: pointer;
+}
+.itemRight .edit{
+    background-color: green;
+}
+.itemRight .delete{
+    background-color: red;
+}
